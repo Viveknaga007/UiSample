@@ -1,6 +1,18 @@
-echo "# UiSample" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/Viveknaga007/UiSample.git
-git push -u origin master
+function bar()
+{
+    var foo='baz';
+
+}
+
+function sample()
+{
+    globalvar;
+    var samplevar;
+}
+function sample2()
+{
+    globalvar = 2;
+    //samplevar = 1;
+
+}
+

@@ -35,6 +35,7 @@ h1 {
   
   .nowrap  { 
     
+    position: relative;
     flex-direction: row-reverse;
     justify-content: flex-end;
     -webkit-flex-wrap: nowrap;
@@ -54,6 +55,7 @@ h1 {
   }
   
   .wrap-reverse         { 
+    
     flex-direction: row-reverse;
     justify-content: space-between;
     -webkit-flex-wrap: wrap-reverse;

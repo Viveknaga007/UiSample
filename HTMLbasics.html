@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html align="center" class="page">
-<head>
+    <head>
+        <script type="text/javascript" src="githubbasics.js">
+        </script>
     <link rel="stylesheet" type="text/css" href="CSSBasics.css">
   <style>
     body{
@@ -79,9 +81,22 @@
 
           Name:
 
-          <input type="text" name="Name" value="Enter Name"/>
+          <input type="text" id="Nm" value="Enter Name"/>
 
-          <input type="submit" onclick="alert('submitted')" submit />
+          <button onclick="myFunction()">Try it</button>
+
+          <script>
+              function myFunction() {
+                  var txt;
+                  var person = document.getElementById('Nm').value;
+                  if (person == null || person == "") {
+                      txt = "User did not enter name.";
+                  } else {
+                      txt = "Hello " + person + "! How are you today?";
+                  }
+                  alert(txt);
+              }
+              </script>
 
 
 
