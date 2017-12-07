@@ -1,18 +1,19 @@
-function bar()
-{
-    var foo='baz';
+var foo = "bar";
+function bar(){
 
+    var foo = "baz";
+    console.log(foo);
+    return foo;
+    }
+function baz(foo){
+    foo = "bam";
+    console.log(foo);
+    bam = "yay"
 }
 
-function sample()
-{
-    globalvar;
-    var samplevar;
-}
-function sample2()
-{
-    globalvar = 2;
-    //samplevar = 1;
+console.log(foo);
+bar();
+baz();
+console.log(bam);
 
-}
 
