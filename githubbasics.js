@@ -1,19 +1,15 @@
 var foo = "bar";
-function bar(){
+function bar(){  
 
     var foo = "baz";
-    console.log(foo);
-    return foo;
-    }
-function baz(foo){
-    foo = "bam";
-    console.log(foo);
+    
+  function baz(foo){
+    foo = "bam";    
     bam = "yay"
+    }
+  baz ();
 }
 
-console.log(foo);
 bar();
-baz();
+console.log(foo);
 console.log(bam);
-
-
