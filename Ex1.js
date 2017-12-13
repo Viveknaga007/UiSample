@@ -1,19 +1,22 @@
-var foo = function bar () {
-
-   var foo = "baz";
+var sampleObj = {
+    name: 'object1',
+    address: '25200 i45n',
+    height: 7,
+    sampleFun: function(){
     
-         
-     function baz(foo){
-         foo = bar ;
-         foo;
-     }
-
-     baz();
-
-}
-foo();
-bar();
-
+    },
+    places:[]
+    }
+    console.log(sampleObj.name);
+    console.log(sampleObj.address);
+    console.log(sampleObj.height);
+    console.log(sampleObj.sampleFun);
+    console.log(sampleObj.places)
+    //output object1 25200 i45n 7 ƒ (){ } []
+    //undefined
+    
+    sampleObj.sampleproperty = 'sample';
+    console.log(sampleObj);
 
 
 

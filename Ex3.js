@@ -1,13 +1,13 @@
-var a = b();
-a ;
-c ;
-
-
-function b() {
-
-     return c;
+var sampleFun= funtion(){
+  console.log(this.name);
 }
-
-  var d = function() {
-   return b();
-  }
+var me={
+  name: 'vivek',
+  sampleFun: sampleFun
+}
+var you={
+  name: 'victor',
+  sampleFun: sampleFun
+}
+me.sampleFun(); //uncaught syntax error
+you.sampleFun();//uncaught syntax error
