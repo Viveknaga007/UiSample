@@ -1,8 +1,8 @@
 var me2 = {
     name: 'foo',
-    Myname: funtion(){
+    Myname: function(){
         console.log(this.name)
     }
     }
-me.Myname;
-me.MyName();
+me2.Myname;
+me2.Myname();

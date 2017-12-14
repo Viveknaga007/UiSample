@@ -1,4 +1,4 @@
-var sampleFun= funtion(){
+var sampleFun= function(){
   console.log(this.name);
 }
 var me={
@@ -9,5 +9,5 @@ var you={
   name: 'victor',
   sampleFun: sampleFun
 }
-me.sampleFun(); //uncaught syntax error
-you.sampleFun();//uncaught syntax error
+me.sampleFun(); 
+you.sampleFun();
