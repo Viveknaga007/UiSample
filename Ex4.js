@@ -17,7 +17,7 @@ var me={
   console.log(myname.bind(me));
   console.log(myname.bind(you));
   
-
+  document.write("Hello World!");
   //console.log(myname());
 
   console.log(myname.call(me));
